@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "image": "",
+        "name": "HTML",
+        "experience": "2"
+    },
+    {
+        "id": 1,
+        "image": "",
+        "name": "CSS",
+        "experience": "2"
+    },
+    {
+        "id": 2,
+        "image": "",
+        "name": "JavaScript",
+        "experience": "2"
+    },
+    {
+        "id": 3,
+        "image": "",
+        "name": "TypeScript",
+        "experience": "2"
+    },
+    {
+        "id": 4,
+        "image": "",
+        "name": "React",
+        "experience": "2"
+    },
+    {
+        "id": 5,
+        "image": "",
+        "name": "Angular",
+        "experience": "2"
+    },
+    {
+        "id": 6,
+        "image": "",
+        "name": "C#",
+        "experience": "2"
+    },
+    {
+        "id": 7,
+        "image": "",
+        "name": ".Net Core",
+        "experience": "2"
+    },
+    {
+        "id": 8,
+        "image": "",
+        "name": "SQL Server",
+        "experience": "2"
+    },
+    {
+        "id": 9,
+        "image": "",
+        "name": "Git",
+        "experience": "2"
+    },
+    {
+        "id": 10,
+        "image": "",
+        "name": "GitHub",
+        "experience": "2"
+    },
+    {
+        "id": 11,
+        "image": "",
+        "name": "Figma",
+        "experience": "1"
+    }
+]

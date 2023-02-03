@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "favorite": true,
+        "images": [
+            "",
+            ""
+        ],
+        "name": "Pokedex",
+        "technologies": [
+            "React"
+        ],
+        "url": {
+            "repositoriy": "https://github.com/Elianmtg/Pokedex",
+            "deployed": "https://pokedex-elian.vercel.app/"
+        },
+        "summary": "<p>Pokedex with the functionality: filter all Pokémon, Responsive design just with CSS, useEffect, useState, customHooks and so on.</p>"
+    },
+    {
+        "id": 2,
+        "favorite": true,
+        "images": [
+            "",
+            ""
+        ],
+        "name": "Giffy",
+        "technologies": [
+            "React "
+        ],
+        "url": {
+            "repositoriy": "https://github.com/Elianmtg/Giffy",
+            "deployed": "https://giffy-elian.netlify.app/"
+        },
+        "summary": "<p>Gifs finder in React with hooks, custom hooks, lazy load, suspense, infinite scroll, style components, css, test with React Testing Library and munch more.</p>"
+    },
+    {
+        "id": 3,
+        "favorite": true,
+        "images": [
+            "",
+            ""
+        ],
+        "name": "MusicArt",
+        "technologies": [
+            "HTML + CSS",
+            "JavaScript"
+        ],
+        "url": {
+            "repositoriy": "https://github.com/Elianmtg/musicArt",
+            "deployed": "https://elianmtg.github.io/musicArt"
+        },
+        "summary": "<p>Web Page where you can search and sing the Song of your favorites Artists and at the same time read him/her biography. I used for the Stack for this project HTML, CSS and JavaScript.</p>"
+    },
+    {
+        "id": 4,
+        "favorite": true,
+        "images": [
+            "",
+            ""
+        ],
+        "name": "TvShow",
+        "technologies": [
+            "HTML + CSS",
+            "JavaScript"
+        ],
+        "url": {
+            "repositoriy": "https://github.com/Elianmtg/tvshow",
+            "deployed": "https://elianmtg.github.io/tvshow"
+        },
+        "summary": "<p>Web Page where you can search all your favorite Shows. With the Stack HTML, CSS and JavaScript.</p>"
+    },
+    {
+        "id": 5,
+        "favorite": false,
+        "images": [
+            "",
+            ""
+        ],
+        "name": "Student Control",
+        "technologies": [
+            "Angular",
+            ".Net Core",
+            "Web API",
+            "SQL Server"
+        ],
+        "url": {
+            "repositoriy": "https://github.com/Elianmtg/ControlEstudiantil",
+            "deployed": null
+        },
+        "summary": "<p>This is the Fronend of a Full Stack project developed to the teachers be able to manage the grades and attendance of theirs students.</p>"
+    },
+    {
+        "id": 6,
+        "favorite": false,
+        "images": [
+            "",
+            ""
+        ],
+        "name": "Web Trailers",
+        "technologies": [
+            "Angular",
+            ".Net Core",
+            "Web API",
+            "SQL Server"
+        ],
+        "url": {
+            "repositoriy": "https://github.com/WilkendrysCastillo16/Programacion-Web-Trailers",
+            "deployed": null
+        },
+        "summary": "<p>Web page to management movies trailers. There are two types of user: Client and Admin that is controled with a optional login. The Admin can publish, edit and delete movies trailers.</p>"
+    }
+]

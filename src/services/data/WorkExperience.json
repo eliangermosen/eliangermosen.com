@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "title": "Front-End Developer",
+        "enterprise": "Cerobucks, S.R.L",
+        "date": {
+            "start": {
+                "year": 2022,
+                "month": "JANUARY"
+            },
+            "end": {
+                "year": 2022,
+                "month": "APRIL"
+            }
+        },
+        "summary": "<p>Modernize the company website. Improve the user experience. The Stack used in this experience was React, agile SCRUM methodologies adapted to completely remote work.</p>"
+    }
+]
