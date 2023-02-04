@@ -1,7 +1,8 @@
+import Hero from '../../section/Hero'
 export default function Home() {
     return(
         <section>
-            <h1>Home</h1>
+            <Hero/>
         </section>
     )
 }

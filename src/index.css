@@ -108,3 +108,9 @@ small,
 a {
   text-decoration: none;
 }
+
+.flex-init{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

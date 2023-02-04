@@ -1,0 +1,13 @@
+.flex-init{
+    gap: 20px;
+}
+
+.hero .face{
+    max-width: 450px;
+    border: 10px solid var(--primary);
+    border-radius: 50%;
+}
+
+.role{
+    margin-top: 0;
+}
