@@ -14,7 +14,7 @@ export default function Hero() {
                 <h3 className="role">Web Developer</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <SocialIcon/>
-                <ButtonPrimary/>
+                <ButtonPrimary>Know me more</ButtonPrimary>
             </div>
         </section>
     )

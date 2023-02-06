@@ -1,0 +1,5 @@
+.chip{
+    border-radius: 6px;
+    padding: 4px 8px;
+    background-color: var(--gray-400);
+}

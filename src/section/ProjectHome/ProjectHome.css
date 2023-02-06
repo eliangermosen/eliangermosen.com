@@ -1,0 +1,10 @@
+.project-home{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    place-items: center;
+    grid-gap: 30px 10px;
+}
+
+.card-text{
+    max-width: 300px;
+}
