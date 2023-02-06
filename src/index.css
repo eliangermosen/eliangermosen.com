@@ -109,6 +109,11 @@ a {
   text-decoration: none;
 }
 
+.container{
+  display: grid;
+  place-items: center;
+}
+
 .flex-init{
   display: flex;
   flex-direction: row;
