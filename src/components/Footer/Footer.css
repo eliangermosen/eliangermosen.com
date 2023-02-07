@@ -1,0 +1,38 @@
+hr{
+    border: 1px solid var(--light);
+    margin: 6rem 0 3rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .contact{
+    max-width: 390px;
+}
+
+.p-footer{
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 480px) {
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
