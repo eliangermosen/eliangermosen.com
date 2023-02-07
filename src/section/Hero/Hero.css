@@ -2,6 +2,12 @@
     gap: 20px;
 }
 
+.hero{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
 .hero .face{
     max-width: 450px;
     border: 10px solid var(--primary);
@@ -10,4 +16,8 @@
 
 .role{
     margin-top: 0;
+}
+
+.box-2{
+    max-width: 450px;
 }

@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+}
+
+.header{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo img{
+    height: 80px;
+    width: auto;
+}
+
+.nav{
+    align-items: center;
+    gap: 20px;
+}

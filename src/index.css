@@ -124,3 +124,12 @@ a {
 .m-0 {
   margin: 0;
 }
+
+section{
+  margin-bottom: 6rem;
+}
+
+.main-container{
+  padding: 5rem;
+  border: 1px solid red;
+}
