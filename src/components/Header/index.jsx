@@ -13,8 +13,8 @@ export default function Header() {
             </div>
             <nav className="flex nav">
                 <a href="/">Home</a>
-                <a href="/">About Me</a>
-                <a href="/">Portfolio</a>
+                <a href="/about">About Me</a>
+                <a href="/portfolio">Portfolio</a>
                 <ButtonOutline>Contact me</ButtonOutline>
             </nav>
             {/* <div>

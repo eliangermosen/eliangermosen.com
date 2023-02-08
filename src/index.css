@@ -136,3 +136,7 @@ section{
   width: 100%;
   margin: 0 auto;
 }
+
+.content-page{
+  margin: 0 2.5rem;
+}
