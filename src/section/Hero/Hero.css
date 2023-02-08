@@ -21,3 +21,30 @@
 .box-2{
     max-width: 450px;
 }
+
+@media screen and (max-width: 992px) {
+    .hero .face {
+        max-width: 350px;
+    }
+    .box-2 {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero .face {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero .face {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero .face {
+        max-width: 300px;
+    }
+}
