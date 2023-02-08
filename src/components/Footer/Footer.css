@@ -1,24 +1,28 @@
 hr{
     border: 1px solid var(--light);
-    margin: 6rem 0 3rem;
+    margin: auto;
+    width: 93%;
 }
-footer{
+
+.footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
+    /* margin: 3rem 0; */
+    padding: 3rem 2.5rem;
 }
 
-footer ul{
+.footer ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-footer li{
+.footer li{
     list-style: none;
 }
 
-footer .contact{
+.footer .contact{
     max-width: 390px;
 }
 
@@ -27,12 +31,12 @@ footer .contact{
 }
 
 @media screen and (max-width: 768px) {
-    footer {
+    .footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 @media screen and (max-width: 480px) {
-    footer {
+    .footer {
         grid-template-columns: repeat(1, 1fr);
     }
 }

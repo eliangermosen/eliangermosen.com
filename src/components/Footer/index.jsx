@@ -6,7 +6,7 @@ export default function Footer() {
     return(
         <>
             <hr />
-            <footer>
+            <footer className="footer">
                 
                 <div>
                     {/* CONVERTIR A DINAMICO */}
