@@ -4,7 +4,7 @@ import Education from '../../section/Education'
 import EducationalCertificates from '../../section/EducationalCertificates'
 import Skills from '../../section/Skills'
 
-export default function Portfolio() {
+export default function About() {
     return(
         <main className="content-page">
             <AboutMe/>
