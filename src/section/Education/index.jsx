@@ -4,7 +4,7 @@ import itla from '../../assets/images/Enterprises/Itla.webp'
 export default function Education(){
     return(
         <section>
-            <h2>Work Experience</h2>
+            <h2>Education</h2>
             <Timeline 
                 name="Software Developer" enterprise="Instituto Tecnológico de las Américas (ITLA)" logo={itla} 
                 startDate="January 2020" endDate="April 2022" 
