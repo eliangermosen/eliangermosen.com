@@ -1,0 +1,33 @@
+.back-project h4{
+    display: inline-block;
+}
+
+.divlink{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.container-figure{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.fig-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.fig-cap{
+    text-align: center;
+}
+
+.container-chips{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
