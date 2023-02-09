@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import PorjectDetail from './pages/ProjectDetail'
+import About from './pages/About'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/portfolio" element={<Portfolio/>}></Route>
         <Route path="/portfolio/:project" element={<PorjectDetail/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
         <Route
           path="*"
           element={<Home/>}
