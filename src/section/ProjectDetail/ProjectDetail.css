@@ -1,5 +1,14 @@
+.back-project{
+    align-items: center;
+    gap: 10px;
+}
+
+.back-project .div-icon{
+    align-items: center;
+}
+
 .back-project h4{
-    display: inline-block;
+    display: inline;
 }
 
 .divlink{
@@ -9,7 +18,9 @@
 }
 
 .container-figure{
-    width: 800px;
+    width: 75vw;
+    max-width: 750px;
+    min-width: 300px;
     height: auto;
     margin: 0 auto;
     margin-bottom: 30px;

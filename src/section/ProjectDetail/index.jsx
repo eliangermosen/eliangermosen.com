@@ -12,11 +12,15 @@ export default function Project(){
     return(
         <section>
 
-            <div className="back-project">
-                <Link to="/portolio/back">
-                    <img src={arrowBack} alt="Arrow Back icon" />
-                </Link>
-                <h4>HOME / PORTFOLIO</h4>
+            <div className="flex back-project">
+                <div className="flex div-icon">
+                    <Link to="/portolio/back">
+                        <img src={arrowBack} alt="Arrow Back icon" />
+                    </Link>
+                </div>
+                <div>
+                    <h4>HOME / PORTFOLIO</h4>
+                </div>
             </div>
 
             <article>
@@ -45,8 +49,8 @@ export default function Project(){
                 <h2>Links:</h2>
                 
                 <div className="divlink">
-                    <Linq icon={github} link={'/portolio/github'} alter={'GitLab icon'}>GitHub</Linq>
-                    <Linq icon={arrowTo} link={'/portolio/demo'} alter={'Arrow To icon'}>Demo</Linq>
+                    <Linq icon={github} link={'https://github.com/Elianmtg/tvshow'} alter={'GitLab icon'}>GitHub</Linq>
+                    <Linq icon={arrowTo} link={'https://elianmtg.github.io/tvshow/'} alter={'Arrow To icon'}>Demo</Linq>
                 </div>
 
             </article>
