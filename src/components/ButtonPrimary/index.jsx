@@ -1,13 +1,11 @@
 import './ButtonPrimary.css'
 import { Link } from 'react-router-dom'
 
-export default function ButtonPrimary(props) {
+export default function ButtonPrimary({children, icon, alter, link}) {
     return(
-        <Link to="/" className='btn-primary'>
-            {props.children}
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 9.4L7.12502 18.3C6.92502 18.5 6.68736 18.6 6.41202 18.6C6.13736 18.6 5.90002 18.5 5.70002 18.3C5.50002 18.1 5.40002 17.8623 5.40002 17.587C5.40002 17.3123 5.50002 17.075 5.70002 16.875L14.6 8H7.00002C6.71669 8 6.47902 7.90433 6.28702 7.713C6.09569 7.521 6.00002 7.28333 6.00002 7C6.00002 6.71667 6.09569 6.479 6.28702 6.287C6.47902 6.09567 6.71669 6 7.00002 6H17C17.2834 6 17.5207 6.09567 17.712 6.287C17.904 6.479 18 6.71667 18 7V17C18 17.2833 17.904 17.5207 17.712 17.712C17.5207 17.904 17.2834 18 17 18C16.7167 18 16.4794 17.904 16.288 17.712C16.096 17.5207 16 17.2833 16 17V9.4Z" fill="#222831"/>
-            </svg>
+        <Link to={link} className="btn-primary">
+            {children}
+            <img src={icon} alt={alter} />
         </Link>
     )
 }

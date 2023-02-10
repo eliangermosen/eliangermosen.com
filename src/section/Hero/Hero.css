@@ -22,6 +22,10 @@
     max-width: 450px;
 }
 
+.btn-hero{
+    max-width: 200px;
+}
+
 @media screen and (max-width: 992px) {
     .hero .face {
         max-width: 350px;

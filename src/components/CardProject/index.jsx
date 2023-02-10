@@ -11,8 +11,10 @@ export default function CardProject() {
             </figure>
             <h3 className="m-0">TvShow</h3>
             <div className="footer-card">
-                <Chip>HTML + CSS</Chip>
-                <Chip>JavaScript</Chip>
+                <div className="flex chips-container">
+                    <Chip>HTML + CSS</Chip>
+                    <Chip>JavaScript</Chip>
+                </div>
                 <Link to="/" className="f-center">
                     See
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

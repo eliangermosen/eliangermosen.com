@@ -21,6 +21,10 @@
 }
 
 .footer-card{
+    justify-content: space-between;
+}
+
+.chips-container{
     gap: 10px;
 }
 

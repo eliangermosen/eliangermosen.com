@@ -1,7 +1,9 @@
-import SocialIcon from "./../SocialIcon"
-import ButtonPrimary from "./../ButtonPrimary"
+import SocialIcon from '../SocialIcon'
+import ButtonPrimary from '../ButtonPrimary'
+import ButtonOutline from '../ButtonOutline'
 import './Footer.css'
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
+import send from '../../assets/icons/send.svg'
 
 export default function Footer() {
     return(
@@ -33,7 +35,7 @@ export default function Footer() {
                 <div className="contact">
                     <h3 className="m-0 p-footer">Contact</h3>
                     <p>Let's come true your idea. Making it grow together, step by step.</p>
-                    <ButtonPrimary>elianmtoribio@gmail.com</ButtonPrimary>
+                    <ButtonPrimary icon={send} alter="send icon" link="mailto:elianmtoribio@gmail.com">elianmtoribio@gmail.com</ButtonPrimary>
                 </div>
                 
             </footer>

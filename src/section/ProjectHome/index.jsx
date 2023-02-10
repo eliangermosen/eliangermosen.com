@@ -1,6 +1,7 @@
 import ButtonPrimary from '../../components/ButtonPrimary';
 import CardProject from '../../components/CardProject';
 import './ProjectHome.css';
+import arrowTo from '../../assets/icons/arrow-to.svg'
 
 export default function ProjectHome() {
     return(
@@ -15,7 +16,9 @@ export default function ProjectHome() {
             <CardProject></CardProject>
             <article className="card-text">
                 <p>If you wish to know more projects that I have done. Click the button.</p>
-                <ButtonPrimary>More Projects</ButtonPrimary>
+                <div className="btn-more-project">
+                    <ButtonPrimary icon={arrowTo} alter="arrow up icon" link="/portfolio">More Projects</ButtonPrimary>
+                </div>
             </article>
         </section>
     )

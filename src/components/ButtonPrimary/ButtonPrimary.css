@@ -8,6 +8,7 @@
     align-items: center;
     padding: 14px 16px;
     gap: 8px;
-    max-width: 270px;
+    /* max-width: 270px; */
+    width: 100%;
     margin-top: 1rem;
 }
