@@ -2,6 +2,7 @@ import face from '../../assets/images/AboutMe/Profile.webp';
 import SocialIcon from '../../components/SocialIcon';
 import ButtonPrimary from '../../components/ButtonPrimary';
 import './Hero.css'
+import Typewriter from '../../components/Typewriter';
 
 export default function Hero() {
     return(
@@ -11,7 +12,8 @@ export default function Hero() {
             </div>
             <div className="box-2">
                 <h1>Elian Germosen</h1>
-                <h3 className="role">Web Developer</h3>
+                {/* <h3 className="role">Web Developer</h3> */}
+                <Typewriter>Web Developer</Typewriter>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <SocialIcon/>
                 <ButtonPrimary>Know me more</ButtonPrimary>

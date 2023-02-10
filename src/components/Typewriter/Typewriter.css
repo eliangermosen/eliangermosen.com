@@ -1,0 +1,20 @@
+.typewriter{
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: 2.5px;
+    border-right: 4px solid;
+    width: 14ch;
+
+    overflow: hidden;
+    animation: 
+        typing 2s steps(14), 
+        blink .5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from{ width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
