@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/images/favicon.svg'
 import ButtonOutline from '../ButtonOutline'
 
@@ -6,15 +7,15 @@ export default function Header() {
     return(
         <header className="flex header">
             <div className="logo">
-                <a href="/" className="flex">
+                <Link to="/" className="flex">
                     <img src={logo} alt="Elian Germosen's logo" />
                     {/* Elian Germosen */}
-                </a>
+                </Link>
             </div>
             <nav className="flex nav">
-                <a href="/">Home</a>
-                <a href="/about">About Me</a>
-                <a href="/portfolio">Portfolio</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About Me</Link>
+                <Link to="/portfolio">Portfolio</Link>
                 <ButtonOutline>Contact me</ButtonOutline>
             </nav>
             {/* <div>

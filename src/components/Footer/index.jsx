@@ -1,6 +1,7 @@
 import SocialIcon from "./../SocialIcon"
 import ButtonPrimary from "./../ButtonPrimary"
 import './Footer.css'
+import { Link } from "react-router-dom"
 
 export default function Footer() {
     return(
@@ -18,13 +19,13 @@ export default function Footer() {
                     <h3 className="m-0 p-footer">Sections</h3>
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <a href="/">About me</a>
+                            <Link to="/about">About me</Link>
                         </li>
                         <li>
-                            <a href="/">Projects</a>
+                            <Link to="/portfolio">Projects</Link>
                         </li>
                     </ul>
                 </div>

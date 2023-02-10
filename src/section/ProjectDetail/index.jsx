@@ -4,17 +4,18 @@ import project2 from '../../assets/images/Projects/TvShow/Detail.webp'
 import github from '../../assets/icons/github.svg'
 import arrowTo from '../../assets/icons/arrow-tow.svg'
 import Chip from '../../components/Chip'
-import Link from '../../components/Link'
+import Linq from '../../components/Link'
 import './ProjectDetail.css'
+import { Link } from 'react-router-dom'
 
 export default function Project(){
     return(
         <section>
 
             <div className="back-project">
-                <a href="/portolio/back">
+                <Link to="/portolio/back">
                     <img src={arrowBack} alt="Arrow Back icon" />
-                </a>
+                </Link>
                 <h4>HOME / PORTFOLIO</h4>
             </div>
 
@@ -44,8 +45,8 @@ export default function Project(){
                 <h2>Links:</h2>
                 
                 <div className="divlink">
-                    <Link icon={github} link={'/portolio/github'} alter={'GitLab icon'}>GitHub</Link>
-                    <Link icon={arrowTo} link={'/portolio/demo'} alter={'Arrow To icon'}>Demo</Link>
+                    <Linq icon={github} link={'/portolio/github'} alter={'GitLab icon'}>GitHub</Linq>
+                    <Linq icon={arrowTo} link={'/portolio/demo'} alter={'Arrow To icon'}>Demo</Linq>
                 </div>
 
             </article>
