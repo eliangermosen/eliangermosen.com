@@ -16,7 +16,7 @@ export default function Header() {
                 <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/portfolio">Portfolio</Link>
-                <ButtonOutline>Contact me</ButtonOutline>
+                <ButtonOutline type="Btn" link="mailto:elianmtoribio@gmail.com">Contact me</ButtonOutline>
             </nav>
             {/* <div>
                 <ButtonOutline>Contact me</ButtonOutline>

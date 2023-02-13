@@ -26,6 +26,12 @@
     max-width: 200px;
 }
 
+.contain-btnhero{
+    margin-top: 1rem;
+    gap: 10px;
+    align-items: center;
+}
+
 @media screen and (max-width: 992px) {
     .hero .face {
         max-width: 350px;
@@ -38,6 +44,10 @@
 @media screen and (max-width: 768px) {
     .hero .face {
         max-width: 300px;
+    }
+    .contain-btnhero{
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 

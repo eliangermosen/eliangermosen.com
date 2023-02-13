@@ -5,7 +5,7 @@
     align-items: center;
     padding: 10px 16px;
     gap: 8px;
-    max-width: 170px;
+    /* max-width: 170px; */
     color: var(--primary);
     border: 2px solid var(--primary);
     border-radius: 12px;
