@@ -13,9 +13,9 @@ export default function Header() {
                 </Link>
             </div>
             <nav className="flex nav">
-                <Link to="/">Home</Link>
-                <Link to="/about">About Me</Link>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/" className="underline">Home</Link>
+                <Link to="/about" className="underline">About Me</Link>
+                <Link to="/portfolio" className="underline">Portfolio</Link>
                 <ButtonOutline type="Btn" link="mailto:elianmtoribio@gmail.com">Contact me</ButtonOutline>
             </nav>
             {/* <div>

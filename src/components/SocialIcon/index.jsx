@@ -1,6 +1,8 @@
+import './SocialIcon.css'
+
 export default function SocialIcon() {
     return(
-        <div className="flex-init">
+        <div className="flex-init container-socialicon">
             {/* TWITTER */}
             <a href="https://twitter.com/elianmtg_" target="_blank" rel="noopener noreferrer">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">

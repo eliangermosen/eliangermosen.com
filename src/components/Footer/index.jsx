@@ -21,13 +21,13 @@ export default function Footer() {
                     <h3 className="m-0 p-footer">Sections</h3>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/" className="underline">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">About me</Link>
+                            <Link to="/about" className="underline">About me</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio">Projects</Link>
+                            <Link to="/portfolio" className="underline">Projects</Link>
                         </li>
                     </ul>
                 </div>

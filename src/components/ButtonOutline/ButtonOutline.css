@@ -9,4 +9,11 @@
     color: var(--primary);
     border: 2px solid var(--primary);
     border-radius: 12px;
+    transition: all ease-in .2s;
+}
+
+.btn-outline:hover {
+    /* background-color: var(--primary-200); */
+    /* color: var(--primary-400); */
+    border: 2px solid var(--primary-400);
 }

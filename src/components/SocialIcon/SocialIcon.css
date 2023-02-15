@@ -1,0 +1,7 @@
+.container-socialicon a{
+    transition: all ease-in .3s;
+}
+
+.container-socialicon a:hover{
+    transform: scale(1.3);
+}
