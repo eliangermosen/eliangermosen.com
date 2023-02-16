@@ -1,7 +1,11 @@
 import CardCertificates from '../../components/CardCertificate'
 import cfcertificate from '../../assets/images/EducationalCertificates/JavaScriptDOM.webp'
+import dataEducationalCertificates from '../../services/data/EducationalCertificates.json'
 
 export default function EducationalCertificates(){
+
+    console.log(dataEducationalCertificates);
+    
     return(
         <section>
             <h2>Educational Certificates</h2>

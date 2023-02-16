@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "/src/assets/images/Enterprises/Cerobucks.webp",
         "title": "Front-End Developer",
         "enterprise": "Cerobucks, S.R.L",
         "date": {

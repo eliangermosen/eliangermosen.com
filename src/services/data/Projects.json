@@ -3,8 +3,8 @@
         "id": 1,
         "favorite": true,
         "images": [
-            "",
-            ""
+            "/src/assets/images/Projects/Pokedex/Result.webp",
+            "/src/assets/images/Projects/Pokedex/Search.webp"
         ],
         "name": "Pokedex",
         "technologies": [
@@ -20,8 +20,8 @@
         "id": 2,
         "favorite": true,
         "images": [
-            "",
-            ""
+            "/src/assets/images/Projects/Giffy/Home.webp",
+            "/src/assets/images/Projects/Giffy/Search.webp"
         ],
         "name": "Giffy",
         "technologies": [
@@ -37,8 +37,8 @@
         "id": 3,
         "favorite": true,
         "images": [
-            "",
-            ""
+            "/src/assets/images/Projects/MusicArt/Home.webp",
+            "/src/assets/images/Projects/MusicArt/Detail.webp"
         ],
         "name": "MusicArt",
         "technologies": [
@@ -55,8 +55,8 @@
         "id": 4,
         "favorite": true,
         "images": [
-            "",
-            ""
+            "/src/assets/images/Projects/TvShow/Home.webp",
+            "/src/assets/images/Projects/TvShow/Detail.webp"
         ],
         "name": "TvShow",
         "technologies": [
@@ -73,8 +73,9 @@
         "id": 5,
         "favorite": false,
         "images": [
-            "",
-            ""
+            "/src/assets/images/Projects/StudentControl/Home.webp",
+            "/src/assets/images/Projects/StudentControl/Grades.webp",
+            "/src/assets/images/Projects/StudentControl/Attendance.webp"
         ],
         "name": "Student Control",
         "technologies": [
@@ -93,8 +94,8 @@
         "id": 6,
         "favorite": false,
         "images": [
-            "",
-            ""
+            "/src/assets/images/Projects/Trailers/Home.webp",
+            "/src/assets/images/Projects/Trailers/Detail.webp"
         ],
         "name": "Web Trailers",
         "technologies": [

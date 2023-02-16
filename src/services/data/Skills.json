@@ -1,73 +1,73 @@
 [
     {
-        "id": 0,
-        "image": "",
+        "id": 1,
+        "image": "/src/assets/images/Skills/HTML.svg",
         "name": "HTML",
         "experience": "2"
     },
     {
-        "id": 1,
-        "image": "",
+        "id": 2,
+        "image": "/src/assets/images/Skills/CSS.svg",
         "name": "CSS",
         "experience": "2"
     },
     {
-        "id": 2,
-        "image": "",
+        "id": 3,
+        "image": "/src/assets/images/Skills/javascript.svg",
         "name": "JavaScript",
         "experience": "2"
     },
     {
-        "id": 3,
-        "image": "",
+        "id": 4,
+        "image": "/src/assets/images/Skills/TypeScript.svg",
         "name": "TypeScript",
         "experience": "2"
     },
     {
-        "id": 4,
-        "image": "",
+        "id": 5,
+        "image": "/src/assets/images/Skills/React.svg",
         "name": "React",
         "experience": "2"
     },
     {
-        "id": 5,
-        "image": "",
+        "id": 6,
+        "image": "/src/",
         "name": "Angular",
         "experience": "2"
     },
     {
-        "id": 6,
-        "image": "",
+        "id": 7,
+        "image": "/src/assets/images/Skills/Csharp.svg",
         "name": "C#",
         "experience": "2"
     },
     {
-        "id": 7,
-        "image": "",
+        "id": 8,
+        "image": "/src/assets/images/Skills/NetCore.svg",
         "name": ".Net Core",
         "experience": "2"
     },
     {
-        "id": 8,
-        "image": "",
+        "id": 9,
+        "image": "/src/assets/images/Skills/SqlServer.svg",
         "name": "SQL Server",
         "experience": "2"
     },
     {
-        "id": 9,
-        "image": "",
+        "id": 10,
+        "image": "/src/assets/images/Skills/Git.svg",
         "name": "Git",
         "experience": "2"
     },
     {
-        "id": 10,
-        "image": "",
+        "id": 11,
+        "image": "/src/assets/images/Skills/GitHub.svg",
         "name": "GitHub",
         "experience": "2"
     },
     {
-        "id": 11,
-        "image": "",
+        "id": 12,
+        "image": "/src/assets/images/Skills/Figma.svg",
         "name": "Figma",
         "experience": "1"
     }

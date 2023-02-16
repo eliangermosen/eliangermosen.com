@@ -2,8 +2,12 @@ import ButtonPrimary from '../../components/ButtonPrimary';
 import CardProject from '../../components/CardProject';
 import './ProjectHome.css';
 import arrowTo from '../../assets/icons/arrow-to.svg'
+import dataTopProjects from '../../services/data/Projects.json'
 
 export default function ProjectHome() {
+
+    console.log(dataTopProjects);
+
     return(
         <section className="project-home">
             <article className="card-text">
