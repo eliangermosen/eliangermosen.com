@@ -10,12 +10,13 @@ export default function EducationalCertificates(){
         <section>
             <h2>Educational Certificates</h2>
             <article className="project-home">
-                <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/>
-                <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/>
-                <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/>
-                <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/>
-                <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/>
-                <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/>
+                {dataEducationalCertificates.map((certificate, index) => (
+                    <CardCertificates
+                        key={index} year={certificate.year} name={certificate.title} 
+                        organization={certificate.organization} cover={certificate.image}
+                    />
+                ))}
+                {/* <CardCertificates year="2022" name="JavaScript and DOM" organization="Codigofacilito" cover={cfcertificate}/> */}
             </article>
         </section>
     )

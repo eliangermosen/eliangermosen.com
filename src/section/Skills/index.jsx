@@ -6,24 +6,15 @@ import dataSkill from '../../services/data/Skills.json'
 export default function Skills(){
 
     console.log(dataSkill);
-    console.log(dataSkill[0].image);
 
     return(
         <section>
             <h2>Skills</h2>
             <article className="content-skills">
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
-                <Skill name="JavaScript" time="1" logo={jsimg}/>
+                {dataSkill.map((skill, index) => (
+                    <Skill key={index} name={skill.name} time={skill.experience} logo={skill.image}/>
+                ))}
+                {/* <Skill name="JavaScript" time="1" logo={jsimg}/> */}
             </article>
         </section>
     )

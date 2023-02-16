@@ -35,7 +35,7 @@
     },
     {
         "id": 3,
-        "favorite": true,
+        "favorite": false,
         "images": [
             "/src/assets/images/Projects/MusicArt/Home.webp",
             "/src/assets/images/Projects/MusicArt/Detail.webp"
@@ -71,7 +71,7 @@
     },
     {
         "id": 5,
-        "favorite": false,
+        "favorite": true,
         "images": [
             "/src/assets/images/Projects/StudentControl/Home.webp",
             "/src/assets/images/Projects/StudentControl/Grades.webp",

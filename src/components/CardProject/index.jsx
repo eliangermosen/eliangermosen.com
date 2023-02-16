@@ -3,17 +3,23 @@ import { Link } from 'react-router-dom';
 import Chip from '../Chip';
 import cover from '../../assets/images/Projects/TvShow/Detail.webp';
 
-export default function CardProject() {
+export default function CardProject({name, stack, cover}) {
+
+    const resultStack = stack.slice(0,2);
+
     return(
         <article className="card">
             <figure className="fig-card">
-                <img src={cover} alt="Cover TvShow project" />
+                <img src={cover[0]} alt={`Cover ${name} project`} />
             </figure>
-            <h3 className="m-0">TvShow</h3>
+            <h3 className="m-0">{name}</h3>
             <div className="footer-card">
                 <div className="flex chips-container">
-                    <Chip>HTML + CSS</Chip>
-                    <Chip>JavaScript</Chip>
+                    {resultStack.map((tech, index) => (
+                        <Chip key={index}>{tech}</Chip>
+                    ))}
+                    {/* <Chip>HTML + CSS</Chip>
+                    <Chip>JavaScript</Chip> */}
                 </div>
                 <Link to="/" className="f-center">
                     See

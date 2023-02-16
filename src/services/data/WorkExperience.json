@@ -7,13 +7,13 @@
         "date": {
             "start": {
                 "year": 2022,
-                "month": "JANUARY"
+                "month": "January"
             },
             "end": {
                 "year": 2022,
-                "month": "APRIL"
+                "month": "April"
             }
         },
-        "summary": "<p>Modernize the company website. Improve the user experience. The Stack used in this experience was React, agile SCRUM methodologies adapted to completely remote work.</p>"
+        "summary": "Modernize the company website. Improve the user experience. The Stack used in this experience was React, agile SCRUM methodologies adapted to completely remote work."
     }
 ]
