@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 import send from '../../assets/icons/send.svg'
 
 export default function Footer() {
+
+    let year = new Date();
+
     return(
         <>
             <hr />
@@ -13,7 +16,7 @@ export default function Footer() {
                 
                 <div>
                     {/* CONVERTIR A DINAMICO */}
-                    <p className="m-0 p-footer">2023 | Elian Germosen</p>
+                    <p className="m-0 p-footer">{year.getFullYear()} | Elian Germosen</p>
                     <SocialIcon></SocialIcon>
                 </div>
 
