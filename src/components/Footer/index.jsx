@@ -38,7 +38,7 @@ export default function Footer() {
                 <div className="contact">
                     <h3 className="m-0 p-footer">Contact</h3>
                     <p>Let's come true your idea. Making it grow together, step by step.</p>
-                    <ButtonPrimary icon={send} alter="send icon" link="mailto:elianmtoribio@gmail.com">elianmtoribio@gmail.com</ButtonPrimary>
+                    <ButtonPrimary icon={send} alter="send icon" anchor="mailto:elianmtoribio@gmail.com">elianmtoribio@gmail.com</ButtonPrimary>
                 </div>
                 
             </footer>
