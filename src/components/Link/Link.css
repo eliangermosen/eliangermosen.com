@@ -22,6 +22,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    border-radius: 12px;
     background: var(--primary);
     transform: scaleX(0);
     transform-origin: left;
@@ -47,6 +48,7 @@
     content: "";
     width: 0;
     height: 4px;
+    border-radius: 12px;
     background: var(--primary);
     position: absolute;
     bottom: 0;

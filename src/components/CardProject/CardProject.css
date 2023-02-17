@@ -2,6 +2,9 @@
     border-radius: 10px;
     padding: 24px 12px;
     background-color: var(--gray);
+    min-height: 306px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer-card, .f-center{
