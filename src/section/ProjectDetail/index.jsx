@@ -7,50 +7,69 @@ import Chip from '../../components/Chip'
 import Linq from '../../components/Link'
 import './ProjectDetail.css'
 import { Link } from 'react-router-dom'
+import dataProject from '../../services/data/Projects.json'
 
-export default function Project(){
+export default function Project({project}){
+
+    const projectDetail = dataProject.find(projectDetail => projectDetail.name === project);
+    console.log(projectDetail);
+
     return(
         <section>
 
             <div className="flex back-project">
                 <div className="flex div-icon">
-                    <Link to="/portolio/back">
+                    <Link to="/portfolio" className="flex back-icon">
                         <img src={arrowBack} alt="Arrow Back icon" />
                     </Link>
                 </div>
                 <div>
-                    <h4>HOME / PORTFOLIO</h4>
+                    <Link to="/" className="underline">
+                        HOME
+                    </Link>
+                    <span> / </span>
+                    <Link to="/portfolio" className="underline">
+                        PORTFOLIO
+                    </Link>
                 </div>
             </div>
 
             <article>
 
                 <figure className="container-figure">
-                    <img src={project1} alt="Home view of TvShow project" className="fig-img"/>
-                    <figcaption className="fig-cap">Home view of TvShow project</figcaption>
+                    <img src={projectDetail.images[0]} alt={`View of ${projectDetail.name} project`} className="fig-img"/>
+                    <figcaption className="fig-cap">View of {projectDetail.name} project</figcaption>
                 </figure>
 
-                <h1>TvShow</h1>
+                <h1>{projectDetail.name}</h1>
                 
-                <div className="container-chips">    
-                    <Chip>HTML + CSS</Chip>
-                    <Chip>JavaScript</Chip>
+                <div className="container-chips">
+                    {projectDetail.technologies.map((tech, index) => (
+                            <Chip key={index}>{tech}</Chip>
+                    ))}
+                    {/* <Chip>HTML + CSS</Chip>
+                    <Chip>JavaScript</Chip> */}
                 </div>
 
-                <p>Web Page where you can search all your favorite Shows.</p>
+                <p className="summary-space">{projectDetail.summary}</p>
                 
                 <figure className="container-figure">
-                    <img src={project2} alt="Detail view of TvShow project" className="fig-img"/>
-                    <figcaption className="fig-cap">Detail view of TvShow project</figcaption>
+                    <img src={projectDetail.images[1]} alt={`View of ${projectDetail.name} project`} className="fig-img"/>
+                    <figcaption className="fig-cap">View of {projectDetail.name} project</figcaption>
                 </figure>
 
-                <p>Web Page where you can search all your favorite Shows.</p>
+                <p>{projectDetail.summary}</p>
                 
                 <h2>Links:</h2>
                 
                 <div className="divlink">
-                    <Linq icon={github} link={'https://github.com/Elianmtg/tvshow'} alter={'GitLab icon'}>GitHub</Linq>
-                    <Linq icon={arrowTo} link={'https://elianmtg.github.io/tvshow/'} alter={'Arrow To icon'}>Demo</Linq>
+                    <Linq icon={github} link={projectDetail.url.repository} alter={'GitLab icon'}>GitHub</Linq>
+                    { 
+                        projectDetail.url.deployed 
+                        ? <Linq icon={arrowTo} link={projectDetail.url.deployed} alter={'Arrow To icon'}>Demo</Linq> 
+                        : null
+                    }
+                    {/* <Linq icon={arrowTo} link={projectDetail.url.deployed} alter={'Arrow To icon'}>Demo</Linq> */}
                 </div>
 
             </article>

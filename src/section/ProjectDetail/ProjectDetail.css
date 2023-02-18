@@ -1,14 +1,11 @@
 .back-project{
     align-items: center;
     gap: 10px;
+    margin: 1rem 0;
 }
 
-.back-project .div-icon{
+.back-icon{
     align-items: center;
-}
-
-.back-project h4{
-    display: inline;
 }
 
 .divlink{
@@ -42,3 +39,8 @@
     gap: 10px;
     margin-bottom: 10px;
 }
+/* 
+.summary-space {
+    white-space: pre-wrap;
+    color: red;
+} */
