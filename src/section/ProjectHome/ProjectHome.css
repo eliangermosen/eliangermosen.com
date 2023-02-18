@@ -12,3 +12,10 @@
 .btn-more-project{
     max-width: 200px;
 }
+
+@media screen and (max-width: 768px) {
+    .btn-more-project {
+        max-width: 300px;
+        width: 98%;
+    }
+}

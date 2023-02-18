@@ -124,6 +124,9 @@ a {
 .m-0 {
   margin: 0;
 }
+.my-1 {
+  margin: 1rem 0;
+}
 
 section{
   margin-bottom: 6rem;

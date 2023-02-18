@@ -15,10 +15,12 @@ export default function Hero() {
                 <img src={face} alt="Elian Germosen face" className="face" />
             </div>
             <div className="box-2">
-                <h1>Elian Germosen</h1>
+                <h1 className="m-0">Elian Germosen</h1>
                 {/* <h3 className="role">Web Developer</h3> */}
                 <Typewriter>Web Developer</Typewriter>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>
+                    Software Developer with +2 year of experience in Web Development with the stack of technologies such as React and Angular for Frontend and C# .Net Core for Backend.
+                </p>
                 <SocialIcon/>
                 <div className="flex contain-btnhero">
                     <div className="btn-hero">

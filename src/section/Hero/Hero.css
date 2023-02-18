@@ -39,6 +39,14 @@
     .box-2 {
         max-width: 300px;
     }
+    .contain-btnhero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn-hero {
+        max-width: 300px;
+        width: 98%;
+    }
 }
 
 @media screen and (max-width: 768px) {
