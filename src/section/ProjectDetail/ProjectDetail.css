@@ -5,6 +5,8 @@
 }
 
 .back-icon{
+    background-color: transparent;
+    border: none;
     align-items: center;
 }
 

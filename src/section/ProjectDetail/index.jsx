@@ -6,7 +6,7 @@ import arrowTo from '../../assets/icons/arrow-tow.svg'
 import Chip from '../../components/Chip'
 import Linq from '../../components/Link'
 import './ProjectDetail.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import dataProject from '../../services/data/Projects.json'
 
 export default function Project({project}){
@@ -14,14 +14,19 @@ export default function Project({project}){
     const projectDetail = dataProject.find(projectDetail => projectDetail.name === project);
     console.log(projectDetail);
 
+    const navigate = useNavigate();
+
     return(
         <section>
 
             <div className="flex back-project">
                 <div className="flex div-icon">
-                    <Link to="/portfolio" className="flex back-icon">
+                    {/* <Link to="/portfolio" className="flex back-icon">
                         <img src={arrowBack} alt="Arrow Back icon" />
-                    </Link>
+                    </Link> */}
+                    <button onClick={() => navigate(-1)} className="flex back-icon">
+                        <img src={arrowBack} alt="Arrow Back icon" />
+                    </button>
                 </div>
                 <div>
                     <Link to="/" className="underline">
