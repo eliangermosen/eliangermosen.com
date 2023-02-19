@@ -5,6 +5,7 @@
 }
 
 .back-icon{
+    cursor: pointer;
     background-color: transparent;
     border: none;
     align-items: center;

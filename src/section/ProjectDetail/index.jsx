@@ -8,6 +8,7 @@ import Linq from '../../components/Link'
 import './ProjectDetail.css'
 import { Link, useNavigate } from 'react-router-dom'
 import dataProject from '../../services/data/Projects.json'
+import Paginator from '../../components/Paginator'
 
 export default function Project({project}){
 
@@ -78,6 +79,8 @@ export default function Project({project}){
                 </div>
 
             </article>
+            
+            <Paginator previous={projectDetail.previous} next={projectDetail.next}/>
 
         </section>
     )

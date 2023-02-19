@@ -1,0 +1,37 @@
+.container-next-prev{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-next-prev a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-prev {
+    display: inline-flex;
+    position: relative;
+}
+
+.link-prev::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    background: var(--primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: 0.5s ease-in-out;
+}
+
+.link-prev:hover::after {
+    transform: scaleX(1);
+}
