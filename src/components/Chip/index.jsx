@@ -1,10 +1,9 @@
 import './Chip.css'
 
-export default function Chip(props) {
+export default function Chip({children}) {
     return(
         <small href="/" className="chip" translate="no">
-            {props.children}
-            {/* JavaScript */}
+            {children}
         </small>
     )
 }

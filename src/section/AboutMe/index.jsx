@@ -16,9 +16,6 @@ export default function AboutMe(){
             <p className="my-1">
                 My focus is on creating attractive, accesibles and effective interfaces for users.
             </p>
-            {/* <p>
-                Personally I try to be active on my GitHub account developing new ideas and on My Twitter account sharing useful content.
-            </p> */}
         </section>
     )
 }

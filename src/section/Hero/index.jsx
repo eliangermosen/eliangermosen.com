@@ -6,7 +6,6 @@ import './Hero.css'
 import Typewriter from '../../components/Typewriter';
 import arrowTo from '../../assets/icons/arrow-to.svg'
 import download from '../../assets/icons/download.svg'
-// import cv from '../../assets/ElianCV.pdf'
 
 export default function Hero() {
     return(
@@ -16,7 +15,6 @@ export default function Hero() {
             </div>
             <div className="box-2">
                 <h1 className="m-0">Elian Germosen</h1>
-                {/* <h3 className="role">Web Developer</h3> */}
                 <Typewriter>Web Developer</Typewriter>
                 <p>
                     Software Developer with +2 year of experience in Web Development with the stack of technologies such as React and Angular for Frontend and C# .Net Core for Backend.

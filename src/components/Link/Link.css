@@ -31,17 +31,11 @@
 
 .underline:hover::after {
     transform: scaleX(1);
-    /* transform-origin: right; */
 }
 
 .underline2 {
     display: inline-flex;
     position: relative;
-    /* margin-bottom: 10px;
-    height: 4px;
-    background: var(--light);
-    bottom: 0;
-    right: 0; */
 }
 
 .underline2::after {
@@ -55,18 +49,9 @@
     right: 50%;
     transition: all 0.5s ease-in-out;
     will-change: width;
-    /* left: 0;
-    transform: scaleX(0);
-    transform-origin: left; */
 }
 
 .underline2:hover::after {
     width: 100%;
     right: 0;
-    /* transform: scaleX(1); */
-    /* transform-origin: right; */
 }
-
-/* .underline2:hover{
-    color: var(--primary);
-} */

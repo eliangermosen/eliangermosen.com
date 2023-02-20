@@ -1,7 +1,6 @@
 import './CardProject.css';
 import { Link } from 'react-router-dom';
 import Chip from '../Chip';
-import cover from '../../assets/images/Projects/TvShow/Detail.webp';
 
 export default function CardProject({name, stack, cover}) {
 
@@ -19,8 +18,6 @@ export default function CardProject({name, stack, cover}) {
                         {resultStack.map((tech, index) => (
                             <Chip key={index}>{tech}</Chip>
                         ))}
-                        {/* <Chip>HTML + CSS</Chip>
-                        <Chip>JavaScript</Chip> */}
                     </div>
                     <span to="/" className="f-center">
                         See

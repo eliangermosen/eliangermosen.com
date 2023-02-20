@@ -1,6 +1,5 @@
 import SocialIcon from '../SocialIcon'
 import ButtonPrimary from '../ButtonPrimary'
-import ButtonOutline from '../ButtonOutline'
 import './Footer.css'
 import { Link } from 'react-router-dom'
 import send from '../../assets/icons/send.svg'
@@ -15,7 +14,6 @@ export default function Footer() {
             <footer className="footer">
                 
                 <div>
-                    {/* CONVERTIR A DINAMICO */}
                     <p className="m-0 p-footer">{year.getFullYear()} | Elian Germosen</p>
                     <SocialIcon></SocialIcon>
                 </div>

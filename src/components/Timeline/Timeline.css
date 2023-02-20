@@ -1,7 +1,5 @@
 .timeline-info{
     border-left: 5px solid var(--gray);
-    /* padding: 20px 0 20px 15px;
-    padding: 0.4rem 1rem 0.2rem; */
     padding: 2px 16px;
     position: relative;
 }

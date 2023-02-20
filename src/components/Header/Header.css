@@ -21,6 +21,5 @@
 @media screen and (max-width: 480px) {
     .nav a:nth-child(-n + 3){
         display: none;
-        /* visibility: hidden; */
     }
 }

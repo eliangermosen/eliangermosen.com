@@ -22,10 +22,6 @@ export default function ProjectHome() {
                             stack={project.technologies} cover={project.images}
                 />
             ))}
-            {/* <CardProject></CardProject>
-            <CardProject></CardProject>
-            <CardProject></CardProject>
-            <CardProject></CardProject> */}
             <article className="card-text">
                 <p>If you wish to know more projects that I have done. Click the button.</p>
                 <div className="btn-more-project">

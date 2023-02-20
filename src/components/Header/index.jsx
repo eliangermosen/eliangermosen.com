@@ -9,7 +9,6 @@ export default function Header() {
             <div className="logo">
                 <Link to="/" className="flex">
                     <img src={logo} alt="Elian Germosen's logo" />
-                    {/* Elian Germosen */}
                 </Link>
             </div>
             <nav className="flex nav">
@@ -18,9 +17,6 @@ export default function Header() {
                 <Link to="/portfolio" className="underline">Portfolio</Link>
                 <ButtonOutline type="Btn" link="mailto:elianmtoribio@gmail.com">Contact me</ButtonOutline>
             </nav>
-            {/* <div>
-                <ButtonOutline>Contact me</ButtonOutline>
-            </div> */}
         </header>
     )
 }

@@ -1,6 +1,4 @@
 import arrowBack from '../../assets/icons/arrow-back.svg'
-import project1 from '../../assets/images/Projects/TvShow/Home.webp'
-import project2 from '../../assets/images/Projects/TvShow/Detail.webp'
 import github from '../../assets/icons/github.svg'
 import arrowTo from '../../assets/icons/arrow-tow.svg'
 import Chip from '../../components/Chip'
@@ -22,9 +20,6 @@ export default function Project({project}){
 
             <div className="flex back-project">
                 <div className="flex div-icon">
-                    {/* <Link to="/portfolio" className="flex back-icon">
-                        <img src={arrowBack} alt="Arrow Back icon" />
-                    </Link> */}
                     <button onClick={() => navigate(-1)} className="flex back-icon">
                         <img src={arrowBack} alt="Arrow Back icon" />
                     </button>
@@ -53,8 +48,6 @@ export default function Project({project}){
                     {projectDetail.technologies.map((tech, index) => (
                             <Chip key={index}>{tech}</Chip>
                     ))}
-                    {/* <Chip>HTML + CSS</Chip>
-                    <Chip>JavaScript</Chip> */}
                 </div>
 
                 <p className="summary-space">{projectDetail.summary}</p>
@@ -75,7 +68,6 @@ export default function Project({project}){
                         ? <Linq icon={arrowTo} link={projectDetail.url.deployed} alter={'Arrow To icon'}>Demo</Linq> 
                         : null
                     }
-                    {/* <Linq icon={arrowTo} link={projectDetail.url.deployed} alter={'Arrow To icon'}>Demo</Linq> */}
                 </div>
 
             </article>

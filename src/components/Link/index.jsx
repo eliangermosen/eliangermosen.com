@@ -7,7 +7,6 @@ export default function Linq({link, children, icon, alter}){
             <p className="p-line" translate="no">
                 {children}
             </p>
-            {/* {children} */}
             <img src={icon} alt={alter} className="icon" />
         </Link>
     )
