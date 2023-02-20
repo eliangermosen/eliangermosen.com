@@ -27,7 +27,7 @@ export default function Hero() {
                         <ButtonPrimary icon={arrowTo} alter="arrow up icon" link="/about">About Me</ButtonPrimary>
                     </div>
                     <div className="btn-hero">
-                        <ButtonOutline type="BtnIcon" icon={download} alter="download icon" link={face}>Download CV</ButtonOutline>
+                        <ButtonOutline type="BtnIcon" icon={download} alter="download icon" link={face}>Download <span translate="no">CV</span></ButtonOutline>
                     </div>
                 </div>
             </div>

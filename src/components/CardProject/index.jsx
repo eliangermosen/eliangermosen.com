@@ -13,7 +13,7 @@ export default function CardProject({name, stack, cover}) {
                 <img src={cover[0]} alt={`Cover ${name} project`} />
             </figure>
             <div className="info-card">
-                <h3 className="m-0">{name}</h3>
+                <h3 className="m-0" translate="no">{name}</h3>
                 <div className="footer-card">
                     <div className="flex chips-container">
                         {resultStack.map((tech, index) => (

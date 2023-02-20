@@ -47,7 +47,7 @@ export default function Project({project}){
                     <figcaption className="fig-cap">View of {projectDetail.name} project</figcaption>
                 </figure>
 
-                <h1>{projectDetail.name}</h1>
+                <h1 translate="no">{projectDetail.name}</h1>
                 
                 <div className="container-chips">
                     {projectDetail.technologies.map((tech, index) => (

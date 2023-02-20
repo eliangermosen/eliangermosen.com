@@ -5,7 +5,7 @@ export default function Skill({name, time, logo}){
         <div className="skill-card flex">
             <img src={logo} alt={`${name} logo`} />
             <div className="skill-info flex">
-                <p className="m-0">{name}</p>
+                <h5 className="m-0" translate="no">{name}</h5>
                 <small>+{time} Years</small>
             </div>
         </div>
