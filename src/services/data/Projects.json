@@ -11,7 +11,7 @@
             "React"
         ],
         "url": {
-            "repository": "https://github.com/Elianmtg/Pokedex",
+            "repository": "https://github.com/eliangermosen/Pokedex",
             "deployed": "https://pokedex-elian.vercel.app/"
         },
         "summary": "<p>Pokedex with the functionality: filter all Pokémon, Responsive design just with CSS, useEffect, useState, customHooks and so on.</p>",
@@ -30,7 +30,7 @@
             "React "
         ],
         "url": {
-            "repository": "https://github.com/Elianmtg/Giffy",
+            "repository": "https://github.com/eliangermosen/Giffy",
             "deployed": "https://giffy-elian.netlify.app/"
         },
         "summary": "<p>Gifs finder in React with hooks, custom hooks, lazy load, suspense, infinite scroll, style components, css, test with React Testing Library and munch more.</p>",
@@ -50,8 +50,8 @@
             "JavaScript"
         ],
         "url": {
-            "repository": "https://github.com/Elianmtg/musicArt",
-            "deployed": "https://elianmtg.github.io/musicArt"
+            "repository": "https://github.com/eliangermosen/musicArt",
+            "deployed": "https://eliangermosen.github.io/musicArt"
         },
         "summary": "<p>Web Page where you can search and sing the Song of your favorites Artists and at the same time read him/her biography. I used for the Stack for this project HTML, CSS and JavaScript.</p>",
         "next": "TvShow",
@@ -70,8 +70,8 @@
             "JavaScript"
         ],
         "url": {
-            "repository": "https://github.com/Elianmtg/tvshow",
-            "deployed": "https://elianmtg.github.io/tvshow"
+            "repository": "https://github.com/eliangermosen/tvshow",
+            "deployed": "https://eliangermosen.github.io/tvshow"
         },
         "summary": "<p>Web Page where you can search all your favorite Shows. With the Stack HTML, CSS and JavaScript.</p>",
         "next": "Student Control",
@@ -93,7 +93,7 @@
             "SQL Server"
         ],
         "url": {
-            "repository": "https://github.com/Elianmtg/ControlEstudiantil",
+            "repository": "https://github.com/eliangermosen/ControlEstudiantil",
             "deployed": null
         },
         "summary": "<p>This is the Fronend of a Full Stack project developed to the teachers be able to manage the grades and attendance of theirs students.</p>",
