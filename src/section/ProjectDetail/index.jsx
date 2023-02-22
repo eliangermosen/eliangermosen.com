@@ -11,6 +11,7 @@ import Paginator from '../../components/Paginator'
 export default function Project({project}){
 
     const projectDetail = dataProject.find(projectDetail => projectDetail.name === project);
+    console.log(projectDetail)
 
     const navigate = useNavigate();
 
@@ -49,14 +50,14 @@ export default function Project({project}){
                     ))}
                 </div>
 
-                <p className="summary-space">{projectDetail.summary}</p>
+                <p className="summary-space">{projectDetail.summary[0]}</p>
                 
                 <figure className="container-figure">
                     <img src={projectDetail.images[1]} alt={`View of ${projectDetail.name} project`} className="fig-img"/>
                     <figcaption className="fig-cap">View of {projectDetail.name} project</figcaption>
                 </figure>
 
-                <p>{projectDetail.summary}</p>
+                <p>{projectDetail.summary[1]}</p>
                 
                 <h2>Links:</h2>
                 
