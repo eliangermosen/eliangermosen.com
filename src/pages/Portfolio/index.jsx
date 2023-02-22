@@ -1,5 +1,5 @@
 import Projects from '../../section/Projects'
-import useSEO from '../../hooks/useSeo'
+import useSEO from '../../hooks/useSEO'
 
 export default function Portfolio() {
 

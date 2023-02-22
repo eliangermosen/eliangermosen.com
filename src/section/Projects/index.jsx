@@ -2,7 +2,6 @@ import CardProject from '../../components/CardProject'
 import dataProjects from '../../services/data/Projects.json'
 
 export default function Projects(){
-    console.log(dataProjects);
 
     return(
         <section className="">

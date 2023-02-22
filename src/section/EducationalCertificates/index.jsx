@@ -2,8 +2,6 @@ import CardCertificates from '../../components/CardCertificate'
 import dataEducationalCertificates from '../../services/data/EducationalCertificates.json'
 
 export default function EducationalCertificates(){
-
-    console.log(dataEducationalCertificates);
     
     return(
         <section>

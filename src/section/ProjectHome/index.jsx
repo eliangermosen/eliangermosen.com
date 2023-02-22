@@ -6,8 +6,6 @@ import dataTopProjects from '../../services/data/Projects.json'
 
 export default function ProjectHome() {
 
-    console.log(dataTopProjects);
-
     const resultTopProjects = dataTopProjects.filter(top => top.favorite);
 
     return(

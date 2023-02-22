@@ -3,8 +3,6 @@ import dataWorkExperience from '../../services/data/WorkExperience.json'
 
 export default function WorkExperience(){
 
-    console.log(dataWorkExperience);
-
     return(
         <section>
             <h2>Work Experience</h2>

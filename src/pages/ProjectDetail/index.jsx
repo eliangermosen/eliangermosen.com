@@ -1,6 +1,6 @@
 import Project from "../../section/ProjectDetail"
 import { useParams } from 'react-router-dom'
-import useSEO from "../../hooks/useSeo";
+import useSEO from "../../hooks/useSEO";
 
 export default function PorjectDetail(){
 

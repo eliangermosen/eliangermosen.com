@@ -11,7 +11,6 @@ import Paginator from '../../components/Paginator'
 export default function Project({project}){
 
     const projectDetail = dataProject.find(projectDetail => projectDetail.name === project);
-    console.log(projectDetail);
 
     const navigate = useNavigate();
 

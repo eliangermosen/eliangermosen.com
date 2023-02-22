@@ -4,8 +4,6 @@ import dataSkill from '../../services/data/Skills.json'
 
 export default function Skills(){
 
-    console.log(dataSkill);
-
     return(
         <section>
             <h2>Skills</h2>
