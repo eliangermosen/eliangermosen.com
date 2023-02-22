@@ -2,11 +2,12 @@ import ButtonPrimary from '../../components/ButtonPrimary';
 import CardProject from '../../components/CardProject';
 import './ProjectHome.css';
 import arrowTo from '../../assets/icons/arrow-to.svg'
-import dataTopProjects from '../../services/data/Projects.json'
+import PokedexCover from '../../assets/images/Projects/Pokedex/Result.webp'
+import GiffyCover from '../../assets/images/Projects/Giffy/Home.webp'
+import ShowCover from '../../assets/images/Projects/TvShow/Home.webp'
+import StudentCover from '../../assets/images/Projects/StudentControl/Home.webp'
 
 export default function ProjectHome() {
-
-    const resultTopProjects = dataTopProjects.filter(top => top.favorite);
 
     return(
         <section className="project-home">
@@ -14,12 +15,22 @@ export default function ProjectHome() {
                 <h2>Recent Projects</h2>
                 <p>Here I show you my more recent projects. You can see and read the information about every one.</p>
             </article>
-            {resultTopProjects.map((project, index) => (
-                <CardProject 
-                            key={index} name={project.name} 
-                            stack={project.technologies} cover={project.images}
-                />
-            ))}
+            <CardProject
+                        name="Pokedex"
+                        stack={["React"]} cover={[PokedexCover]}
+            />
+            <CardProject
+                        name="Giffy"
+                        stack={["React"]} cover={[GiffyCover]}
+            />
+            <CardProject
+                        name="TvShow"
+                        stack={["HTML + CSS", "JavaScript"]} cover={[ShowCover]}
+            />
+            <CardProject
+                        name="Student Control"
+                        stack={["Angular", ".Net Core"]} cover={[StudentCover]}
+            />
             <article className="card-text">
                 <p>If you wish to know more projects that I have done. Click the button.</p>
                 <div className="btn-more-project">
