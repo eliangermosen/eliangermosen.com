@@ -6,6 +6,7 @@ import './Hero.css'
 import Typewriter from '../../components/Typewriter';
 import arrowTo from '../../assets/icons/arrow-to.svg'
 import download from '../../assets/icons/download.svg'
+import downloadCV from '../../assets/Elian Germosen - Web Developer.pdf';
 
 export default function Hero() {
     return(
@@ -25,7 +26,10 @@ export default function Hero() {
                         <ButtonPrimary icon={arrowTo} alter="arrow up icon" link="/about">About Me</ButtonPrimary>
                     </div>
                     <div className="btn-hero">
-                        <ButtonOutline type="BtnIcon" icon={download} alter="download icon" link={face}>Download <span translate="no">CV</span></ButtonOutline>
+                        <ButtonOutline type="BtnIcon" icon={download} alter="download icon" 
+                            link={downloadCV}>
+                            Download <span translate="no">CV</span>
+                        </ButtonOutline>
                     </div>
                 </div>
             </div>
