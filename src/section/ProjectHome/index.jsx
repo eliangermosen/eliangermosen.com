@@ -14,9 +14,9 @@ export default function ProjectHome() {
                 <h2>Recent Projects</h2>
                 <p>Here I show you my more recent projects. You can see and read the information about every one.</p>
             </article>
-            {resultTopProjects.map((project, index) => (
+            {resultTopProjects.map((project) => (
                 <CardProject 
-                            key={index} name={project.name} 
+                            key={project.id} name={project.name} 
                             stack={project.technologies} cover={project.images}
                 />
             ))}

@@ -8,8 +8,8 @@ export default function Skills(){
         <section>
             <h2>Skills</h2>
             <article className="content-skills">
-                {dataSkill.map((skill, index) => (
-                    <Skill key={index} name={skill.name} time={skill.experience} logo={skill.image}/>
+                {dataSkill.map((skill) => (
+                    <Skill key={skill.id} name={skill.name} time={skill.experience} logo={skill.image}/>
                 ))}
             </article>
         </section>

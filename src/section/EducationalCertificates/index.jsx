@@ -7,9 +7,9 @@ export default function EducationalCertificates(){
         <section>
             <h2>Educational Certificates</h2>
             <article className="project-home">
-                {dataEducationalCertificates.map((certificate, index) => (
+                {dataEducationalCertificates.map((certificate) => (
                     <CardCertificates
-                        key={index} year={certificate.year} name={certificate.title} 
+                        key={certificate.id} year={certificate.year} name={certificate.title} 
                         organization={certificate.organization} cover={certificate.image}
                     />
                 ))}
