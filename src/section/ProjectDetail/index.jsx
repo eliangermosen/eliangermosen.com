@@ -5,7 +5,7 @@ import Chip from '../../components/Chip'
 import Linq from '../../components/Link'
 import './ProjectDetail.css'
 import { Link, useNavigate } from 'react-router-dom'
-import dataProject from '../../services/data/Projects.json'
+import dataProject from '../../services/data/ProjectsDetails'
 import Paginator from '../../components/Paginator'
 
 export default function Project({project}){
