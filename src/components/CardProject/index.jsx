@@ -5,7 +5,6 @@ import Chip from '../Chip';
 export default function CardProject({name, stack, cover}) {
 
     const resultStack = stack.slice(0,2);
-    console.log(resultStack)
 
     return(
         <Link to={`/portfolio/${name}`} className="card flex">
