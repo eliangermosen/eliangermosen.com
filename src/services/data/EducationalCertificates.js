@@ -1,44 +1,53 @@
-[
+import Itla from '../../assets/images/EducationalCertificates/Itla.webp'
+import JavascriptDOM from '../../assets/images/EducationalCertificates/JavaScriptDOM.webp'
+import VersionControl from '../../assets/images/EducationalCertificates/VersionControl.webp'
+import RemoteWork from '../../assets/images/EducationalCertificates/RemoteWork.webp'
+import English from '../../assets/images/EducationalCertificates/English.webp'
+import EnglishExcellence from '../../assets/images/EducationalCertificates/EnglishExcellence.webp'
+
+const EducationalCertificates = [
     {
         "id": 1,
-        "image": "/src/assets/images/EducationalCertificates/Itla.webp",
+        "image": Itla,
         "title": "Software Developer",
         "organization": "Instituto Tecnológico de las Américas (ITLA)",
         "year": "2022"
     },
     {
         "id": 2,
-        "image": "/src/assets/images/EducationalCertificates/JavaScriptDOM.webp",
+        "image": JavascriptDOM,
         "title": "JavaScript and DOM",
         "organization": "Codigofacilito",
         "year": "2022"
     },
     {
         "id": 3,
-        "image": "/src/assets/images/EducationalCertificates/VersionControl.webp",
+        "image": VersionControl,
         "title": "Git & GitHub Version Control",
         "organization": "Capacítate para el empleo",
         "year": "2021"
     },
     {
         "id": 4,
-        "image": "/src/assets/images/EducationalCertificates/RemoteWork.webp",
+        "image": RemoteWork,
         "title": "Remote Work",
         "organization": "Capacítate para el empleo",
         "year": "2021"
     },
     {
         "id": 5,
-        "image": "/src/assets/images/EducationalCertificates/English.webp",
+        "image": English,
         "title": "English",
         "organization": "Success Institute",
         "year": "2017"
     },
     {
         "id": 6,
-        "image": "/src/assets/images/EducationalCertificates/EnglishExcellence.webp",
+        "image": EnglishExcellence,
         "title": "English Excellence",
         "organization": "Success Institute",
         "year": "2017"
     }
 ]
+
+export default EducationalCertificates
