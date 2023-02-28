@@ -131,8 +131,8 @@ const ProjectsDetails = [
             "deployed": null
         },
         "summary": [
-            "This is the Fronend of a Full Stack project developed to the teachers be able to manage the grades and attendance of theirs students.",
-            "The libraries that I used are Angular Material, ngx-charts, jspdf and SweetAlert2. If you want to se the backen of the project go to my GitHub account for more."
+            "This is the Frontend of a Full Stack project developed to the teachers be able to manage the grades and attendance of theirs students.",
+            "The libraries that I used are Angular Material, ngx-charts, jspdf and SweetAlert2. If you want to see the backend of the project go to my GitHub account for more."
         ],
         "next": "Web Trailers",
         "previous": "TvShow"
@@ -157,7 +157,7 @@ const ProjectsDetails = [
         },
         "summary": [
             "Web page to management movies trailers. There are two types of user: Client and Admin that is controled with a optional login. The Admin can publish, edit and delete movies trailers.",
-            "This is a collaborative project with some of my classmates from ITLA. If you want to se the backen of the project go to my GitHub account for more."
+            "This is a collaborative project with some of my classmates from ITLA. If you want to see the backend of the project go to my GitHub account for more."
         ],
         "next": null,
         "previous": "Student Control"
