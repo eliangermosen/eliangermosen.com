@@ -12,7 +12,7 @@ export default function ProjectHome() {
         <section className="project-home">
             <article className="card-text">
                 <h2>Recent Projects</h2>
-                <p>Here I show you my more recent projects. You can see and read the information about every one.</p>
+                <p>Here I show you my most recent projects. You can see and read the information about every one.</p>
             </article>
             {resultTopProjects.map((project) => (
                 <CardProject 
