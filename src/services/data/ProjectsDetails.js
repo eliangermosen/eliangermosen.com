@@ -17,6 +17,8 @@ import AttendanceStudentControl from '../../assets/images/Projects/StudentContro
 // Web Trailers
 import HomeTrailers from '../../assets/images/Projects/Trailers/Home.webp'
 import DetailTrailers from '../../assets/images/Projects/Trailers/Detail.webp'
+//Confidential
+import Confidential from '../../assets/images/Projects/Confidential/Confidential.webp'
 
 const ProjectsDetails = [
     {
@@ -43,7 +45,7 @@ const ProjectsDetails = [
     },
     {
         "id": 2,
-        "favorite": true,
+        "favorite": false,
         "images": [
             HomeGiffy,
             SearchGiffy
@@ -113,7 +115,7 @@ const ProjectsDetails = [
     },
     {
         "id": 5,
-        "favorite": true,
+        "favorite": false,
         "images": [
             HomeStudentControl,
             GradesStudentControl,
@@ -159,8 +161,64 @@ const ProjectsDetails = [
             "Web page to management movies trailers. There are two types of user: Client and Admin that is controled with a optional login. The Admin can publish, edit and delete movies trailers.",
             "This is a collaborative project with some of my classmates from ITLA. If you want to see the backend of the project go to my GitHub account for more."
         ],
-        "next": null,
+        "next": "National Hearing Roster",
         "previous": "Student Control"
+    },
+    {
+        "id": 7,
+        "favorite": true,
+        "images": [Confidential],
+        "name": "National Hearing Roster",
+        "technologies": ["React", ".NET Core", "Web API", "SQL Server"],
+        "url": { "repository": null, "deployed": null },
+        "summary": [
+            "Role: Frontend Team Lead. A high-impact public platform developed for the Dominican Judicial Branch that allows citizens to consult the status and schedule of judicial hearings nationwide in real-time.",
+            "This project is a pillar of the digital transformation of the justice system, significantly increasing transparency and accessibility for the general public."
+        ],
+        "next": "Case Management System",
+        "previous": "Web Trailers"
+    },
+    {
+        "id": 8,
+        "favorite": false,
+        "images": [Confidential],
+        "name": "Case Management System",
+        "technologies": [".NET Core", "SQL Server", "Web API"],
+        "url": { "repository": null, "deployed": null },
+        "summary": [
+            "Role: Software Developer. An intensive internal system (BackOffice) used by the Judicial Branch to administer cases, legal procedures, hearings, and various internal judicial workflows.",
+            "Contributed to the complete digitalization of the Dominican justice system, improving operational efficiency and the administration of judicial records."
+        ],
+        "next": "Vehicle Access Control",
+        "previous": "National Hearing Roster"
+    },
+    {
+        "id": 9,
+        "favorite": false,
+        "images": [Confidential],
+        "name": "Vehicle Access Control",
+        "technologies": ["React", ".NET Core", "Web API", "SQL Server"],
+        "url": { "repository": null, "deployed": null },
+        "summary": [
+            "Role: Full-Stack Developer. A real-time security application designed for the Presidential Palace to register and monitor every vehicle entering the premises.",
+            "Enhanced the security protocols of the Dominican Republic's Presidential Palace by providing a continuous and reliable digital log of vehicle movement."
+        ],
+        "next": "Room Reservation System",
+        "previous": "Case Management System"
+    },
+    {
+        "id": 10,
+        "favorite": true,
+        "images": [Confidential],
+        "name": "Room Reservation System",
+        "technologies": ["React", ".NET Core", "Web API", "SQL Server"],
+        "url": { "repository": null, "deployed": null },
+        "summary": [
+            "Role: Full-Stack Developer. A comprehensive scheduling solution created for the Presidential Palace to manage the booking and coordination of all public and private meeting rooms.",
+            "Streamlined administrative operations within the Presidential Palace, eliminating scheduling conflicts for high-level government meetings."
+        ],
+        "next": null,
+        "previous": "Vehicle Access Control"
     }
 ]
 

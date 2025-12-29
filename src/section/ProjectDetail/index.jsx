@@ -51,23 +51,34 @@ export default function Project({project}){
 
                 <p className="summary-space">{projectDetail.summary[0]}</p>
                 
-                <figure className="container-figure">
-                    <img src={projectDetail.images[1]} alt={`View of ${projectDetail.name} project`} className="fig-img"/>
-                    <figcaption className="fig-cap">View of {projectDetail.name} project</figcaption>
-                </figure>
+                {
+                    !projectDetail.images[1]
+                    ? null
+                    :
+                    <figure className="container-figure">
+                        <img src={projectDetail.images[1]} alt={`View of ${projectDetail.name} project`} className="fig-img"/>
+                        <figcaption className="fig-cap">View of {projectDetail.name} project</figcaption>
+                    </figure>
+                }
 
                 <p>{projectDetail.summary[1]}</p>
-                
-                <h2>Links:</h2>
-                
-                <div className="divlink">
-                    <Linq icon={github} link={projectDetail.url.repository} alter={'GitLab icon'}>GitHub</Linq>
-                    { 
-                        projectDetail.url.deployed 
-                        ? <Linq icon={arrowTo} link={projectDetail.url.deployed} alter={'Arrow To icon'}>Demo</Linq> 
-                        : null
-                    }
-                </div>
+
+                {
+                    !projectDetail.url.repository
+                    ? null
+                    :
+                    <>
+                        <h2>Links:</h2>
+                        <div className="divlink">
+                            <Linq icon={github} link={projectDetail.url.repository} alter={'GitLab icon'}>GitHub</Linq>
+                            { 
+                                projectDetail.url.deployed 
+                                ? <Linq icon={arrowTo} link={projectDetail.url.deployed} alter={'Arrow To icon'}>Demo</Linq> 
+                                : null
+                            }
+                        </div>
+                    </>
+                }
 
             </article>
             
