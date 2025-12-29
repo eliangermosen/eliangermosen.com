@@ -16,9 +16,9 @@ export default function Hero() {
             </div>
             <div className="box-2">
                 <h1 className="m-0">Elian Germosen</h1>
-                <Typewriter>Web Developer</Typewriter>
+                <Typewriter>Full-Stack Developer</Typewriter>
                 <p>
-                    Software Developer with +2 year of experience in Web Development with the stack of technologies such as React and Angular for Frontend and C# .Net Core for Backend.
+                    Experienced Software Developer Engineer with 4+ years of experience specializing in building robust, scalable solutions for the judicial and government sectors. Expert in React and Angular for crafting intuitive frontends, and .NET Core with SQL Server for high-performance backend architectures. Committed to Clean Architecture and driving digital transformation.
                 </p>
                 <SocialIcon/>
                 <div className="flex contain-btnhero">

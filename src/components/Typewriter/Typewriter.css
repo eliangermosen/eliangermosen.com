@@ -3,7 +3,7 @@
     white-space: nowrap;
     letter-spacing: 2.5px;
     border-right: 4px solid;
-    width: 14ch;
+    width: 19.5ch;
 
     overflow: hidden;
     animation: 
@@ -17,4 +17,11 @@
 
 @keyframes blink {
     50% { border-color: transparent; }
+}
+
+@media screen and (max-width: 480px){
+    .typewriter{
+        font-size: 1.3rem;
+        width: 20.5ch;
+    }
 }
