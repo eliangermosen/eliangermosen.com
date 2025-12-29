@@ -6,7 +6,7 @@ import './Hero.css'
 import Typewriter from '../../components/Typewriter';
 import arrowTo from '../../assets/icons/arrow-to.svg'
 import download from '../../assets/icons/download.svg'
-import downloadCV from '../../assets/Elian Germosen - Web Developer.pdf';
+import downloadCV from '../../assets/Elian Germosen - Full Stack.pdf';
 
 export default function Hero() {
     return(
