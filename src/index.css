@@ -129,7 +129,7 @@ a {
 }
 
 section{
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .main-container{
@@ -142,4 +142,17 @@ section{
 
 .content-page{
   margin: 0 2.5rem;
+}
+
+.expertise-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.expertise-list li {
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  border-left: 2px solid var(--primary);
 }

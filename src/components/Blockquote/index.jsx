@@ -1,9 +1,13 @@
 import './Blockquote.css'
 
-export default function Blockquote({children}){
+export default function Blockquote({paragraphs}){
     return(
         <blockquote className="blockquote">
-            <p>{children}</p>
+            {
+                paragraphs.map((parapgraph)=>(
+                    <p>{parapgraph}</p>
+                ))
+            }
         </blockquote>
     )
 }
