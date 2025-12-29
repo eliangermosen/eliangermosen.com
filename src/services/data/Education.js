@@ -10,17 +10,24 @@ const Education = [
         "logo": ITLA,
         "startDate": "January 2020",
         "endDate": "April 2022",
-        "summary": "During my proccess of education in this institute I worked with a team of developers where collaboratively we created projects from scratch to production wich I could improve my habilities of comunication, leadership and teamwork. Besides for my continous learning I've taken courses and done projects alone, for the same way take my knowledge to the highest level and could have the hability to solve problems."
+        "summary": `I completed my technologist degree in Software Development at the Instituto Tecnológico de las Américas (ITLA), graduating 
+                    with an outstanding GPA of 3.9/4.0 and receiving a mention of excellence. Throughout this program, I developed numerous real-world 
+                    projects that bridged the gap between technical theory and practical implementation. This intensive training environment allowed me 
+                    to master the foundations of software development while collaborating in high-performance teams to build projects from scratch to 
+                    production.`
     },
     {
         "id": 2,
         "order": 2,
-        "name": "Software Development Engineering",
+        "name": "Software Development Engineer",
         "enterprise": "Universidad del Caribe (UNICARIBE)",
         "logo": UNICARIBE,
         "startDate": "August 2023",
-        "endDate": "October 2025",
-        "summary": "Looking for a new mindset of all this area I want to become a software development engineer with this new challenge."
+        "endDate": "November 2025",
+        "summary": `I earned my degree as a Software Development Engineer with a strong GPA of 3.7/4.0. My specialization focused on the complete 
+                    software lifecycle, including requirements analysis, architectural design, deployment, and the implementation of robust, scalable 
+                    applications. This engineering background has equipped me with the expertise to lead complex projects and apply industry best practices 
+                    and agile methodologies to deliver high-quality production systems.`    
     },
 ]
 
