@@ -1,0 +1,38 @@
+.fig-card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.certificate{
+    max-height: 390px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    width: 100%;
+    overflow: hidden; /* Evita que el contenido se salga del contenedor */
+}
+
+.info-card h3 {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    word-wrap: break-word; /* Rompe palabras largas si es necesario */
+    overflow-wrap: break-word; 
+    /* el texto se corta con puntos suspensivos después de 2 líneas en lugar de crecer infinito */
+    display: -webkit-box; 
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.info-card div {
+    width: 100%;
+    white-space: nowrap; /* Evita que el año y org se separen en líneas feas */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Pone ... si la organización es muy larga */
+}

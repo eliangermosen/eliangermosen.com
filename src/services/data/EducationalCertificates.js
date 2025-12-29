@@ -4,45 +4,61 @@ import VersionControl from '../../assets/images/EducationalCertificates/VersionC
 import RemoteWork from '../../assets/images/EducationalCertificates/RemoteWork.webp'
 import English from '../../assets/images/EducationalCertificates/English.webp'
 import EnglishExcellence from '../../assets/images/EducationalCertificates/EnglishExcellence.webp'
+import NetIntermedio from '../../assets/images/EducationalCertificates/NetIntermedio.webp'
+import Unicaribe from '../../assets/images/EducationalCertificates/Unicaribe.webp'
 
 const EducationalCertificates = [
     {
         "id": 1,
-        "image": Itla,
-        "title": "Software Developer",
-        "organization": "Instituto Tecnológico de las Américas (ITLA)",
-        "year": "2022"
+        "image": Unicaribe,
+        "title": "Software Engineering",
+        "organization": "Universidad del Caribe (UNICARIBE)",
+        "year": "2025"
     },
     {
         "id": 2,
+        "image": NetIntermedio,
+        "title": "Intermediate C# .Net Core ",
+        "organization": "Instituto Tecnológico de las Américas",
+        "year": "2024"
+    },
+    {
+        "id": 3,
+        "image": Itla,
+        "title": "Software Developer",
+        "organization": "Instituto Tecnológico de las Américas",
+        "year": "2022"
+    },
+    {
+        "id": 4,
         "image": JavascriptDOM,
         "title": "JavaScript and DOM",
         "organization": "Codigofacilito",
         "year": "2022"
     },
     {
-        "id": 3,
+        "id": 5,
         "image": VersionControl,
         "title": "Git & GitHub Version Control",
         "organization": "Capacítate para el empleo",
         "year": "2021"
     },
     {
-        "id": 4,
+        "id": 6,
         "image": RemoteWork,
         "title": "Remote Work",
         "organization": "Capacítate para el empleo",
         "year": "2021"
     },
     {
-        "id": 5,
+        "id": 7,
         "image": English,
         "title": "English",
         "organization": "Success Institute",
         "year": "2017"
     },
     {
-        "id": 6,
+        "id": 8,
         "image": EnglishExcellence,
         "title": "English Excellence",
         "organization": "Success Institute",

@@ -2,9 +2,9 @@ import './CardCertificate.css'
 
 export default function CardCertificates({year, name, organization, cover}){
     return(
-        <article className="flex card">
+        <article className="flex card certificate">
             <figure className="fig-card">
-                <img src={cover} alt={`${organization} ${name} Title`} />
+                <img src={cover} alt={`${organization} ${name} Title`} loading="lazy" />
             </figure>
             <div className="info-card">
                 <h3 className="m-0" translate="no">{name}</h3>
