@@ -16,73 +16,73 @@ const Skills = [
         "id": 1,
         "image": HTML,
         "name": "HTML",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 2,
         "image": CSS,
         "name": "CSS",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 3,
         "image": JavaScript,
         "name": "JavaScript",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 4,
         "image": TypeScript,
         "name": "TypeScript",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 5,
         "image": React,
         "name": "React",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 6,
         "image": Angular,
         "name": "Angular",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 7,
         "image": Csharp,
         "name": "C#",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 8,
         "image": NetCore,
         "name": ".Net Core",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 9,
         "image": SQLServer,
         "name": "SQL Server",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 10,
         "image": Git,
         "name": "Git",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 11,
         "image": GitHub,
         "name": "GitHub",
-        "experience": "2"
+        "experience": "4"
     },
     {
         "id": 12,
         "image": Figma,
         "name": "Figma",
-        "experience": "1"
+        "experience": "3"
     }
 ]
 
